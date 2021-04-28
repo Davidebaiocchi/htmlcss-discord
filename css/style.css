@@ -277,7 +277,7 @@ footer{
 footer li {
     text-decoration: none;
     list-style: none;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 footer a {
@@ -288,4 +288,31 @@ footer a {
 
 li span {
     font-size: 18px;
+}
+
+.finefooter {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 360px;
+}
+
+.registrati {
+    background-color: #8ea1e1;
+    color: white;
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    padding: 10px 15px;
+    width: 90px;
+    border-radius: 20px;
+    position: relative;
+    left: calc(100% - 90px);
+    bottom: 35px;
+    cursor: pointer;
+}
+
+.finefooter img {
+    height: 34px;
+    width: 124px;
 }
