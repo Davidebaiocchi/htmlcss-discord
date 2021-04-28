@@ -245,18 +245,41 @@ footer img {
 
 
 /* ul footer */
+footer{
+    position: relative;
+}
+
 .itas{
     float: left;
 }
 
-.liste {
-    float: left;
-    position: relative;
-    left: 100px;
+.lista1 {
+    position: absolute;
+    right: 55%;
+    top: 20px;
 }
 
+.lista2 {
+    position: absolute;
+    right: 40%;
+    top: 20px;
+}
+
+.lista3 {
+    position: absolute;
+    right: 25%;
+    top: 20px;
+}
+
+.lista4 {
+    position: absolute;
+    right: 10%;
+    top: 20px;
+}
 footer li {
-    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
 }
 
 footer a {
